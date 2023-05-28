@@ -1,0 +1,46 @@
+{
+  "name": "visual-ideas/laravel-log-watcher",
+  "description": "Laravel log watcher package with MoonShine Laravel Admin GUI",
+  "keywords": [
+    "Log",
+    "Laravel",
+    "Package",
+    "PHP",
+    "MoonShine",
+    "Filament",
+    "VisualIdeas"
+  ],
+  "homepage": "https://github.com/visual-ideas/laravel-log-watcher",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alex",
+      "email": "alex.visualideas@gmail.com",
+      "role": "Developer"
+    }
+  ],
+
+  "require": {
+    "php": "^8.1",
+    "laravel/framework": "^10.8"
+  },
+
+  "require-dev": {
+  },
+
+  "autoload": {
+    "psr-4": {
+      "VI\\LaravelLogWatcher\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "VI\\LaravelLogWatcher\\LaravelLogWatcherProvider"
+      ]
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+
+}
